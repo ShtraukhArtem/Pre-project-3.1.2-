@@ -13,6 +13,10 @@
             <input type="text" class="form-control" id="username" th:field="*{username}" required>
         </div>
         <div class="mb-3">
+            <label for="email" class="form-label">Почта:</label>
+            <input type="text" class="form-control" id="email" th:field="*{email}" required>
+        </div>
+        <div class="mb-3">
             <label for="password" class="form-label">Пароль:</label>
             <input type="password" class="form-control" id="password" th:field="*{password}" placeholder="Оставьте пустым, чтобы не менять">
         </div>
@@ -32,3 +36,4 @@
 </div>
 </body>
 </html>
+
